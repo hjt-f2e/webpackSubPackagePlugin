@@ -156,7 +156,9 @@ module.exports = function generateJson (compilation, options) {
      * @returns ['use-in-sub']
      */
     const getCustomerComponents = (paths) => {
-        return paths.map(item => {
+        return paths.filter(item => {
+            return item.startsWith(componentsDir)
+        }).map(item => {
             let originName = item.split('/').pop()
             const temp = originName.substr(0, 1).toLocaleLowerCase() + originName.substr(1)
             return temp.replace(/([A-Z])/g, "-$1").toLowerCase();
