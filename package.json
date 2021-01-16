@@ -1,0 +1,23 @@
+{
+  "name": "webpacksubpackageplugin",
+  "version": "1.0.0",
+  "description": "uni-app定制化分包",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hjt-f2e/webpackSubPackagePlugin.git"
+  },
+  "keywords": [
+    "uni-app",
+    "分包"
+  ],
+  "author": "zhangxiongxin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hjt-f2e/webpackSubPackagePlugin/issues"
+  },
+  "homepage": "https://github.com/hjt-f2e/webpackSubPackagePlugin#readme"
+}
