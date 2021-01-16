@@ -1,6 +1,6 @@
 {
   "name": "webpack-uniapp-subpackage-plugin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "uni-app定制化分包",
   "main": "index.js",
   "scripts": {
